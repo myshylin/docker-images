@@ -1,0 +1,5 @@
+*.ipynb
+src/*
+!src/.gitkeep
+testfiles/*
+!testfiles/.gitkeep

@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+    dprep-daily:
+        container_name: "dprep-daily"
+        build:
+            dockerfile: Dockerfile
+            context: .
+            args:
+             #- DPREP_INDEX_URL=[url_to_private_wheel]
+             - PYTHON_VERSION=3.7
+        ports:
+            - "3056:3056"
+        volumes:
+            - ./src:/home/src
+            - ./testfiles:/home/testfiles
+        privileged: true
