@@ -1,5 +1,5 @@
 *.ipynb
-src/*
-!src/.gitkeep
-testfiles/*
-!testfiles/.gitkeep
+dprep-daily-ubuntu/src/**
+!dprep-daily-ubuntu/src/.gitkeep
+dprep-daily-ubuntu/testfiles/**
+!dprep-daily-ubuntu/testfiles/.gitkeep

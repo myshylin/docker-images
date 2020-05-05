@@ -11,6 +11,7 @@ services:
              - PYTHON_VERSION=3.7
         ports:
             - "3056:3056"
+            - "3000:3000"
         volumes:
             - ./src:/home/src
             - ./testfiles:/home/testfiles
